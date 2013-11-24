@@ -23,12 +23,12 @@
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/LaTeXSQ/LaTeXSQ.sublime-settings"},
+                                "args": {"file": "${packages}/LaTeXSQ/LaTeXSq.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/LaTeXSQ.sublime-settings"},
+                                "args": {"file": "${packages}/User/LaTeXSq.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" },
