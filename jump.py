@@ -115,7 +115,7 @@ class LatexPlusJumpToPdfCommand(sublime_plugin.TextCommand):
                     subl = linux_settings["sublime"] if "sublime" in linux_settings else "subl"
                     python = linux_settings["python"] if "python" in linux_settings else "python"
                     evince_backward_search = sublime.load_resource(
-                        "Packages/LaTeXPlus/evince/evince_backward_search")
+                        "Packages/LaTeXBox/evince/evince_backward_search")
                     subprocess.Popen([python, "-c", evince_backward_search,
                                       pdffile, subl + ' "%f:%l"'])
                     if not evince_is_running:
@@ -123,7 +123,7 @@ class LatexPlusJumpToPdfCommand(sublime_plugin.TextCommand):
 
                 if forward_sync:
                     evince_forward_search = sublime.load_resource(
-                        "Packages/LaTeXPlus/evince/evince_forward_search")
+                        "Packages/LaTeXBox/evince/evince_forward_search")
                     subprocess.Popen(["python", "-c", evince_forward_search, pdffile,
                                       str(line), srcfile])
 
