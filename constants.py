@@ -274,3 +274,18 @@ general_commands = [
     ("\\bibliography{}", "bibliography{$1}"),
     ("\\addbibresource{}", "addbibresource{$1}")
 ]
+
+arrow_map = {
+    "<-": "\\leftarrow",
+    "<--": "\\longleftarrow",
+    "->": "\\rightarrow",
+    "-->": "\\longrightarrow",
+    "<->": "\\leftrightarrow",
+    "<-->": "\\longleftrightarrow",
+    "<=": "\\Leftarrow",
+    "<==": "\\Longleftarrow",
+    "=>": "\\Rightarrow",
+    "==>": "\\Longrightarrow",
+    "<=>": "\\Leftrightarrow",
+    "<==>": "\\Longleftrightarrow"
+}

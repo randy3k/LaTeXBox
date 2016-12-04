@@ -1,4 +1,14 @@
 [
+    // completions for arrows
+    { "keys": ["tab"], "command": "r_box_auto_complete", "context":
+        [
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "(<[-=]{1,2})|([-=]{1,2}>)|(<[-=]{1,2}>)$", "match_all": true },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "text.tex.latex" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false }
+        ]
+    },
     // for auto completion trigger
     { "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/LaTeXBox/macros/Delete And Hide Auto Complete.sublime-macro"}, "context":
         [
