@@ -1,6 +1,20 @@
 LaTeXBox
 =====
 
+-------
+**Important:** I guess LaTeXBox has finished its historical goal after the
+LaTeX syntax has [merged](https://github.com/sublimehq/Packages/pull/370) into
+Sublime Text. Additionally, the rapid recent development of
+[LaTeXTools](https://github.com/SublimeText/LaTeXTools) shames the lake of
+functionalities of LaTeXBox. Sorry guys, I am giving up LaTeXBox and switch
+to LaTeXTools (and you should too).
+
+For those who loves the keybinds shipped by LaTeXBox, I have moved the keybinds to a new package [LaTeXZeta](https://github.com/randy3k/LaTeXZeta) which is compartiable with LaTeXTools.
+
+If you have a strong interest to be a maintainer of LaTeXBox, please let me know.
+
+-------
+
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=Randy%2ecs%2elai%40gmail%2ecom&amp;lc=US&amp;item_name=Package&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3apaypal%2ddonate%2dyellow%2esvg%3aNonHosted" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-blue.svg" /></a>
 <a href="https://gratipay.com/~randy3k/" title="Donate to this project using Gratipay"><img src="https://img.shields.io/badge/gratipay-donate-yellow.svg" /></a>
 
