@@ -9,7 +9,7 @@ Sublime Text. Additionally, the rapid recent development of
 functionalities of LaTeXBox. Sorry guys, I am giving up LaTeXBox and switch
 to LaTeXTools (and you should too).
 
-For those who loves the keybinds shipped by LaTeXBox, I have moved the keybinds to a new package [LaTeXZeta](https://github.com/randy3k/LaTeXZeta) which is compartiable with LaTeXTools.
+For those who loves the keybinds shipped by LaTeXBox, I have moved the keybinds to a new package [LaTeXYZ](https://github.com/randy3k/LaTeXYZ) which is compartiable with LaTeXTools.
 
 If you have a strong interest to be a maintainer of LaTeXBox, please let me know.
 
